@@ -1,10 +1,10 @@
 modLoader="javafml" #mandatory
 loaderVersion="${loader_version_range}" #mandatory
-license="${mod_license}"
+license="${AGPL v3}"
 [[mods]] #mandatory
 modId="${rgbredstone}" #mandatory
 version="${01.000.0001}" #mandatory
-displayName="${mod_name}" #mandatory
+displayName="${RGB Redstone}" #mandatory
 #updateJSONURL="https://change.me.example.invalid/updates.json" #optional
 #displayURL="https://change.me.to.your.mods.homepage.example.invalid/" #optional
 #logoFile="examplemod.png" #optional
