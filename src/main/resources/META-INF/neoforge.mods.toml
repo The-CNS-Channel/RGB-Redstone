@@ -1,16 +1,16 @@
 modLoader="javafml" #mandatory
 loaderVersion="${loader_version_range}" #mandatory
-license="${AGPL v3}"
+license="${mod_license}"
 [[mods]] #mandatory
-modId="${rgbredstone}" #mandatory
-version="${01.000.0001}" #mandatory
-displayName="${RGB Redstone}" #mandatory
+modId="${mod_id}" #mandatory
+version="${mod_version}" #mandatory
+displayName="${mod_name}" #mandatory
 #updateJSONURL="https://change.me.example.invalid/updates.json" #optional
 #displayURL="https://change.me.to.your.mods.homepage.example.invalid/" #optional
 #logoFile="examplemod.png" #optional
 #credits="" #optional
 authors="${mod_authors}" #optional
-#displayTest="MATCH_VERSION" # MATCH_VERSION is the default if nothing is specified (#optional)
+#displayTest="MATCH_VERSION" #optional
 description='''${mod_description}'''
 #[[mixins]]
 #config="${mod_id}.mixins.json"
